@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.container{
+    color: #000;
+
+    
+}
+
+.title{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #4f2266;
+    color: #fff;
+    border-radius: 20px;
+}
+.label{
+    cursor: pointer;
+    display: flex;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Hind', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+
+}
+.label input[type="checkbox"]{
+    display: none;
+}
+
+.spanDebajoDia{
+    font-family: 'Hind', cursive;
+    margin: 3rem 0;
+    font-size: 1.2rem;
+
+}
