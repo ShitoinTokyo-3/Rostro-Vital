@@ -4,8 +4,7 @@ import CheckList from './CheckList/CheckList'
 import Contador from './Contador/Contador'
 
 function App() {
-  // const password = 'rostrovital01'
-  const password = '123'
+  const password = 'rostrovital52'
   const [statePassword, setStatePassword] = useState(false)
 
 
