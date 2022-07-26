@@ -16,8 +16,7 @@ const CheckList = () => {
 
     let hour = new Date().getHours()
 
-    // let time = hour < 18 ? 'Dia' : 'Noche'
-    let time = 'Noche'
+    let time = hour < 18 ? 'Dia' : 'Noche'
 
     const rutinas = [
         [
